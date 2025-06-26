@@ -1,0 +1,11 @@
+uint8 STT=1
+uint8 LLM=2
+uint8 TTS=3
+
+uint8 begin
+string text
+string history
+---
+rcl_interfaces/Parameter[] result
+---
+rcl_interfaces/Parameter[] feedback

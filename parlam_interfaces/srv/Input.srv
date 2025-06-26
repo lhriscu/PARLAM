@@ -1,0 +1,8 @@
+# Request
+float32 max_time
+---
+# Response
+string user_input
+bool success
+string message
+

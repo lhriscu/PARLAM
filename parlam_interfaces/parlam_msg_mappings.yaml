@@ -1,0 +1,33 @@
+-
+  enable_foreign_mappings: true
+  ros1_package_name: 'iri_moonshot_msgs'
+  ros1_message_name: 'ParameterValue'
+  ros2_package_name: 'rcl_interfaces'
+  ros2_message_name: 'ParameterValue'
+-
+  enable_foreign_mappings: true
+  ros1_package_name: 'iri_moonshot_msgs'
+  ros1_message_name: 'Parameter'
+  ros2_package_name: 'rcl_interfaces'
+  ros2_message_name: 'Parameter'
+-
+  ros1_package_name: 'iri_moonshot_msgs'
+  ros1_action_name: 'Llm'
+  ros2_package_name: 'parlam_interfaces'
+  ros2_action_name: 'Llm'
+-
+  ros1_package_name: 'iri_moonshot_msgs'
+  ros1_service_name: 'Input'
+  ros2_package_name: 'parlam_interfaces'
+  ros2_service_name: 'Input'
+-
+  ros1_package_name: 'iri_moonshot_msgs'
+  ros1_service_name: 'Output'
+  ros2_package_name: 'parlam_interfaces'
+  ros2_service_name: 'Output'
+-
+  ros1_package_name: 'iri_moonshot_msgs'
+  ros1_service_name: 'Llm'
+  ros2_package_name: 'parlam_interfaces'
+  ros2_service_name: 'Llm'
+

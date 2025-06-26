@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: PARLAM-ROS
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Lavinia
+    family-names: Hriscu
+    email: lavinia.beatrice.hriscu@upc.edu

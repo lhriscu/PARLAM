@@ -1,0 +1,13 @@
+<launch>
+  <node name="bridge" 
+        exec="parameter_bridge" 
+        pkg="ros1_bridge"
+        namespace="bridge"/>
+
+  <node name="llm_action_bridge" 
+        exec="action_bridge" 
+        pkg="ros1_bridge"
+        namespace="llm_action_bridge"
+        args="ros2 parlam_interfaces action/Llm llm_action"/>
+   
+</launch>

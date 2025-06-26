@@ -1,0 +1,32 @@
+{
+  "spanish": [
+    "¡Hola! ¿Cómo puedo ayudarte?",
+    "¡Hola!, ¿En qué puedo ayudarte?",
+    "¡Hola! ¿Qué necesitas?",
+    "¡Hola! Te puedo ayudar en algo?",
+    "¡Hola! ¿Te puedo ayudar?",
+    "¡Hola! ¿Necesitas algo?",
+    "¡Hola! ¿Cómo te puedo ayudar?",
+    "!Hola!"
+  ],
+  "english": [
+    "Hello! How can I help you?",
+    "Hello! Do you need something?",
+    "Hello! What do you need?",
+    "Hello! Can I help you?",
+    "Hello! How can I help?",
+    "Hello! Do you need anything?",
+    "Hello! What are you looking for?",
+    "Hello!"
+  ],
+  "catalan": [
+    "Hola! Com et puc ajudar?",
+    "Hola! En què et puc ajudar?",
+    "Hola! Què necessites?",
+    "Hola! Et puc ajudar en alguna cosa?",
+    "Hola! Et puc ajudar?",
+    "Hola! Necessites alguna cosa?",
+    "Hola! Vols alguna cosa?",
+    "!Hola!"
+  ]
+}
