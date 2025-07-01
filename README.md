@@ -64,4 +64,4 @@ limitations under the License.
 
 If you use this repository in your research or work, please cite it as follows:
 
-> [Author(s)]. *PARLAM: Personalized Assistant Retriever Language Model*. GitHub repository: [https://github.com/lhriscu/PARLAM](https://github.com/lhriscu/PARLAM).
+> Hriscu, L. PARLAM: Personalized Assistant Retriever Language Model. GitHub repository: [https://github.com/lhriscu/PARLAM](https://github.com/lhriscu/PARLAM).
