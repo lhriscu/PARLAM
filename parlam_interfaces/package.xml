@@ -4,7 +4,6 @@
   <name>parlam_interfaces</name>
   <version>0.0.0</version>
   <description>Interfaces for PARLAM framework</description>
-  <maintainer email="lavinia.beatrice.hriscu@upc.edu">lhriscu</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

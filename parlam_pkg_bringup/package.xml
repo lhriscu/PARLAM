@@ -4,7 +4,6 @@
   <name>parlam_pkg_bringup</name>
   <version>0.0.0</version>
   <description>Launch PARLAM framework nodes</description>
-  <maintainer email="lavinia.beatrice.hriscu@upc.edu">lhriscu</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
