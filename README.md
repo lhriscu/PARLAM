@@ -6,7 +6,7 @@ PARLAM (Personalized Assistant Retriever Language Model) is a framework implemen
 
 This program is configured to work with a Large Language Model. To tailor real-world scenarios, we have implemented two specific use cases: a package delivery (handover) and an information assistance task (info). For any interaction, the program is set by default to use [Vosk](https://alphacephei.com/vosk/models) speech to text models, [gTTS](https://pypi.org/project/gTTS/) text to speech models and a Large Language Model (OpenAI ChatGPT). The models can be changed in the corresponding servers.
 
-Using an agnostic embedding model (LaBSE), it can conduct conversations multiple language interaction, from which the user selects one to communicate with the robot. By default is set to English, but can be changed in the [launch file](parlam_pkg_bringup/launch/parlam.launch.py), as well as the audio sources, and the folder with the Vosk model.
+Using an agnostic embedding model (LaBSE), it can conduct conversations in multiple languages. The user has to select a preferred language to communicate with the robot. By default is set to English, but can be changed in the [launch file](parlam_pkg_bringup/launch/parlam.launch.py), as well as the audio sources, and the folder with the Vosk model.
 
 ## Architecture Diagram
 
@@ -46,6 +46,12 @@ ros2 launch parlam_pkg_bringup parlam.launch.py
 
 Example: ros2 action send_goal /llm_action_bridge/llm_action parlam_interfaces/action/Llm "{begin: 0, text: '', history: '[]'}" -f
 
+## Citation
+
+If you use this repository in your research or work, please cite it as follows:
+
+> Hriscu, L. PARLAM: Personalized Assistant Retriever Language Model. GitHub repository: [https://github.com/lhriscu/PARLAM](https://github.com/lhriscu/PARLAM).
+
 ## License
 ```
 Copyright 2025 Lavinia Hriscu
@@ -59,9 +65,3 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License. 
 ```
-
-## Citation
-
-If you use this repository in your research or work, please cite it as follows:
-
-> Hriscu, L. PARLAM: Personalized Assistant Retriever Language Model. GitHub repository: [https://github.com/lhriscu/PARLAM](https://github.com/lhriscu/PARLAM).

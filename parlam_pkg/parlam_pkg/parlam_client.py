@@ -187,7 +187,7 @@ class ParlamClientAsync(Node):
                     goal_handle.publish_feedback(feedback_msg)
 
                     # Get messages with input question
-                    context_data, chunks = self.get_context(str(response_input))
+                    context_data, chunks = self.get_context(response_input.user_input)
                     messages = self.get_messages_info(context_data=context_data,
                                                     previous_questions_and_answers=previous_questions_and_answers,
                                                     new_question= response_input.user_input)
