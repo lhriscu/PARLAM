@@ -320,6 +320,7 @@ class ParlamClientAsync(Node):
                                           type=self.get_parameter("type").value
                                           )
             self.get_logger().info('New conversation file: ' + (file_name))
+            # Average times are set to 'default' as placeholders, have to be computed during the conversation
             write_conversations(file_path=self.get_parameter("directory").value + '/'+file_name,
                                 total_duration='default',
                                 avg_input_time_stt = 'default',
