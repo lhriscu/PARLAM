@@ -38,6 +38,8 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
+    maintainer='lhriscu',
+    maintainer_email='lavinia.beatrice.hriscu@upc.edu',
     description='PARLAM framework nodes',
     license='Apache License 2.0',
     tests_require=['pytest'],

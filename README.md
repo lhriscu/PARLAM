@@ -1,4 +1,4 @@
-[![ROS2 VERSION](https://img.shields.io/badge/ROS-ROS%202%20Humble-brightgreen)](http://docs.ros.org/en/humble/index.html) &nbsp;
+ [![ROS2 VERSION](https://img.shields.io/badge/ROS-ROS%202%20Humble-brightgreen)](http://docs.ros.org/en/humble/index.html) &nbsp;
 [![Ubuntu VERSION](https://img.shields.io/badge/Ubuntu-22.04-green)](https://ubuntu.com/) &nbsp; [![LICENSE](https://img.shields.io/badge/license-Apache--2.0-informational)](https://github.com/Auromix/ROS-LLM/blob/ros2-humble/LICENSE) &nbsp;
 
 # PARLAM
@@ -10,7 +10,7 @@ Using an agnostic embedding model (LaBSE), it can conduct conversations multiple
 
 ## Architecture Diagram
 
-This project uses a hybrid architecture that combines ROS 1 and ROS 2 modules to perform the experiments of PARLAM with a robot. Only the ROS 2 modules are published in this repository. 
+This project uses a hybrid architecture that combines ROS 1 and ROS 2 modules to perform the experiments of PARLAM with [IVO robot](https://upcommons.upc.edu/bitstream/handle/2117/373443/2598-IVO-Robot%20-A-New-Social-Robot-for-Human-Robot-Collaboration(1).pdf?sequence=1). Only the ROS 2 modules are published in this repository. 
 
 The system is designed to support both autonomous robotic capabilities and human teleoperation. In teleoperated scenarios, the robot leverages only the `speech_input_server` and `speech_output_server` nodes for verbal interaction, to use the same voice as in the autonomous case. To support this mode, we provide a dedicated launch file for the operator: [`parlam_operator.launch.py`](parlam_pkg_bringup/launch/parlam_operator.launch.py). For a brief guide of how to use such nodes, see the [operator guide](README_Operator.md).
 
@@ -30,8 +30,6 @@ If you are considering cloning this repository, please note that you will need t
 
 ## To run the program:
 
-Please note that in order to make anonymus the repository, some names and files have been set as placeholders for the real values.
-
 1. Check audio input and output devices, and set them in the launch files:
 
 - Input: pactl list sources | grep device.description
@@ -50,7 +48,7 @@ Example: ros2 action send_goal /llm_action_bridge/llm_action parlam_interfaces/a
 
 ## License
 ```
-Copyright 2025
+Copyright 2025 Lavinia Hriscu
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -61,3 +59,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License. 
 ```
+
+## Citation
+
+If you use this repository in your research or work, please cite it as follows:
+
+> Hriscu, L. PARLAM: Personalized Assistant Retriever Language Model. GitHub repository: [https://github.com/lhriscu/PARLAM](https://github.com/lhriscu/PARLAM).
