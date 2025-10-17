@@ -16,7 +16,6 @@ def get_new_file_name(directory, id, language, task, type):
             type (str): The type part of the file name. 
         Returns:
             str: The new file name with an incremented id_person part.
-
     """
     max_id = -1
     for file_name in os.listdir(directory):
