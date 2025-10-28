@@ -48,9 +48,9 @@ Example: ros2 action send_goal /llm_action_bridge/llm_action parlam_interfaces/a
 
 ## Citation
 
-If you use this repository in your research or work, please cite it as follows:
+If you use this repository in your research or work, please cite the following research paper:
 
-> Hriscu, L. PARLAM: Personalized Assistant Retriever Language Model. GitHub repository: [https://github.com/lhriscu/PARLAM](https://github.com/lhriscu/PARLAM).
+> Hriscu, L., Sanfeliu, A., & Garrell, A. (2025). Human Perception in Social Tasks: A Comparative Evaluation of Autonomous and Teleoperated Robots. IEEE Robotics and Automation Letters.
 
 ## License
 ```
