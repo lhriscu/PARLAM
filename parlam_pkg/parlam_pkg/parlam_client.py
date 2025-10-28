@@ -184,7 +184,6 @@ class ParlamClientAsync(Node):
 
                     input_dialog.value.string_value = response_input.user_input
                     feedback_msg.feedback.append(input_dialog)
-                    goal_handle.publish_feedback(feedback_msg)
 
                     # Update state
                     state.value.string_value = "Reasoning"
