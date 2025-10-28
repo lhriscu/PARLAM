@@ -186,6 +186,11 @@ class ParlamClientAsync(Node):
                     feedback_msg.feedback.append(input_dialog)
                     goal_handle.publish_feedback(feedback_msg)
 
+                    # Update state
+                    state.value.string_value = "Reasoning"
+                    feedback_msg.feedback.append(state)
+                    goal_handle.publish_feedback(feedback_msg)
+
                     # Get messages with input question
                     context_data, chunks = self.get_context(response_input.user_input)
                     messages = self.get_messages_info(context_data=context_data,
