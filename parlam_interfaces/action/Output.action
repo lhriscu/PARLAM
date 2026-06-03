@@ -1,0 +1,10 @@
+# Goal
+string text
+bool use_text_field
+# Bool False is streaming mode, it receives text from topic. 
+---
+# Result
+bool success
+---
+# Feedback
+string state

@@ -1,8 +1,0 @@
-# Request
-string messages
----
-# Response
-string answer
-bool success
-string message
-

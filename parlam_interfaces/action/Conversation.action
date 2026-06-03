@@ -1,0 +1,13 @@
+rcl_interfaces/Parameter[] goal
+
+# See README
+# int32 LISTEN=0
+# int32 THINK=1
+# int32 SPEAK=2
+
+# int32 command
+# string text
+---
+rcl_interfaces/Parameter[] result
+---
+rcl_interfaces/Parameter[] feedback

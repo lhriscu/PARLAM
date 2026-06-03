@@ -12,10 +12,10 @@ find_package(std_msgs REQUIRED)
 find_package(rcl_interfaces REQUIRED)
 
 set(msg_files
-  "srv/Input.srv"
-  "srv/Llm.srv"
-  "srv/Output.srv"
+  "action/Conversation.action"
+  "action/Input.action"
   "action/Llm.action"
+  "action/Output.action"
 )
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}

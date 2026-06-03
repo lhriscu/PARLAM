@@ -1,0 +1,10 @@
+# Ignore .ipynb files
+*.ipynb
+*.onnx
+*.onnx.json
+# Ignore ROS files and folders 
+__pycache__/
+models
+build/
+install/
+log/

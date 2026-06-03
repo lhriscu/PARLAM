@@ -1,11 +1,10 @@
-uint8 STT=1
-uint8 LLM=2
-uint8 TTS=3
-
-uint8 begin
-string text
-string history
+# Goal
+string messages
+string model
 ---
-rcl_interfaces/Parameter[] result
+# Result
+bool success
+string final_text
 ---
-rcl_interfaces/Parameter[] feedback
+# Feedback
+string partial_text

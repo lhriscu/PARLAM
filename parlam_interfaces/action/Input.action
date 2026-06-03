@@ -1,0 +1,9 @@
+# Goal
+int32 listen_time
+---
+# Result
+bool success
+string user_input
+---
+# Feedback
+string state
